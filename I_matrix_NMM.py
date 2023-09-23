@@ -5,7 +5,6 @@ import basix
 
 
 def interpolation_matrix_nonmatching_meshes(V_1,V_0): # Function spaces from nonmatching meshes
-    print('ciao')
     msh_0 = V_0.mesh
     msh_1 = V_1.mesh
     x_0   = V_0.tabulate_dof_coordinates()
